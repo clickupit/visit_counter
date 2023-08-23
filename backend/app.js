@@ -15,7 +15,7 @@ app.use(bodyParser.json());
 app.use('/api/get-visitor-all', require('./api-routes/get-visitor-all'));
 app.use('/api/post-visitor-log', require('./api-routes/post-visitor-log'));
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 80;
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });

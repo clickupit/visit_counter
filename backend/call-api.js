@@ -8,7 +8,10 @@ async function addVisitorLog() {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json'
-          }
+          },
+          body: JSON.stringify({
+            requestURL: window.location.href
+          })
         });
 
         if (response.status === 201) {

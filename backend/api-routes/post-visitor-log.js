@@ -44,7 +44,7 @@ router.post('/', (req, res) => {
     clientIP: req.headers['x-forwarded-for'] || req.connection.remoteAddress,
     clientDevice: req.useragent.os,
     clientBrowser: req.useragent.browser,
-    requestURL: req.get('Referer'),
+    requestURL: req.body.requestURL || req.headers.referer,
     timeStamp: new Date().toLocaleString('en-US', { timeZone: 'Asia/Bangkok' }),
   };
 
