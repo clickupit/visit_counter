@@ -1,0 +1,16 @@
+- link สำหรับดูข้อมูล : 
+	http://nc.modularinspire.com/
+- link Swagger : 
+	http://nc.api.modularinspire.com/api-docs/
+- link test data :
+	http://nc.modularinspire.com/landing.html
+	http://nc.modularinspire.com/product.html
+- js สำหรับ test ใส่ web :
+	http://nc.api.modularinspire.com/call-api.js
+- git :
+	https://github.com/clickupit/visit_counter
+- DFD :
+	https://miro.com/app/board/uXjVMsd1sLY=/
+- ER :
+	https://miro.com/app/board/uXjVMsd1sIY=/
+	
